@@ -24,10 +24,6 @@ end */
 
 assign data_out = {ram[address],ram[address+1],ram[address+2],ram[address+3]};
 
-/*always @(posedge clk) begin
-    if (write_en) begin
-        $writememh("C:/Users/DELL/Desktop/MeDS_LAB/test_benches/memory_write.hex", ram,0,2047);
-    end
-end*/
+
 
 endmodule
