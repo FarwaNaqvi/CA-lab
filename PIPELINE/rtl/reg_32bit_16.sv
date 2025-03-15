@@ -7,9 +7,7 @@ module reg_32bit_16(
 
 logic [31:0] reg_file [0:31];
 
-// initial begin 
-//     $readmemh("C:/Users/DELL/Desktop/MeDS_LAB/R_TYPE/reg_data.hex", reg_file);
-// end
+
 
 //assign reg_file[0] = 32'b0;
 
